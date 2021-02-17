@@ -47,15 +47,40 @@
 // }
 /////////////////////////////////
 
+// let a = 1;
+// let b = 5;
 
-
-let a = 1;
-let b = 5;
-
-console.log(a+b);
+// console.log(a+b);
 
 // console.log(add(3,4)); //7
 // console.log(add(10,12)); //22
 // console.log(add(a,b)); //6
 
 // console.log('hello')
+
+
+// JavaScript Loops
+// While Loop
+// If you find yourself in an infinite loop... use ctrl-c
+
+let n = 0;
+
+while ( n < 3 ) { // test condition
+  console.log(n);
+  n++; //statement to execute
+}
+
+console.log(n);
+// expected output: 3
+
+// For Loop
+
+let str = '';
+
+for (let i = 0; i <= 9; i++) { //this is our condition and definition. We initialize and control everything.
+  console.log(str + ' at '+  i + ' iteration');
+  str = str + i;
+}
+
+console.log(str);
+// expected output: "012345678"
